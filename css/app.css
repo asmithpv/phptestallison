@@ -1,0 +1,8 @@
+body { background-color: #f1f1f1; background-image: url(http://placehold.it/400x300); background-repeat: no-repeat; background-attachment: fixed; background-position: center center; }
+body h1 { color: #39878b; }
+body h2 { color: #aab300; }
+
+.btn { color: white; padding: 10px 20px; text-decoration: none; border: 1px solid #ddd; background-color: #aab300; }
+.btn:hover { background-color: #777d03; }
+
+/*# sourceMappingURL=app.css.map */

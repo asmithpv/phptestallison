@@ -1,0 +1,28 @@
+@import "variables";
+
+body {
+	h1 {
+		color:$turquoise;
+	}
+	h2 {
+		color:$lime;
+	}
+	background: {
+		color: #f1f1f1;
+		image: url(http://placehold.it/400x300);
+		repeat: no-repeat;
+		attachment: fixed;
+		position: center center;
+	}
+}
+
+.btn {
+	color:$white;
+	padding: 10px 20px;
+	text-decoration: none;
+	border: 1px solid #ddd;
+	background-color: $lime;
+	&:hover {
+		background-color: desaturate(darken($lime, 10%), 5%);
+	}
+}
